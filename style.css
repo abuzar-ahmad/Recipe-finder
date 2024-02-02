@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+ body {
+            margin: 0;
+            height: auto;
+            background: #fff;
+            background-color: #fff;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* light blue background */
+        }
+        .navbar {
+            background-color: #87ceeb; /* light blue navbar */
+            overflow: hidden;
+            position: sticky;
+            justify-content: space-between;
+            padding: 10px 20px;
+           
+            display: flex;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .navbar-left {
+            float: left;
+            font-size: 20px;
+        }
+        .navbar-left span{
+            font-size: larger;
+            font-weight: 600;
+            color: #121296;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 5px;
+            border: 2px solid #5b9ae7;
+        }
+        .navbar-left span:hover{
+            color: #5b9ae7;
+            border: 2px solid #121296;
+
+        }
+        .search-bar {
+            float: left;
+            margin: 0 20px;
+        }
+        .search-bar input[type="text"] {
+            padding: 6px 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        .fav-button {
+            float: right;
+            background-color: #fff;
+            color: #87ceeb;
+            border: 3px solid #87ceeb;
+            padding: 6px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .fav-button:hover {
+            background-color: #87ceeb;
+            color: #fff;
+        }
+
+
+
+/* style.css */
+
+.container {
+    background: #fff;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    
+}
+
+
+.container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}.container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+
+.container img{
+    width:100%;
+}
+
+.wrapper:nth-child(-n+4) {
+    margin-top: 20px;
+    flex: 0 1 calc(20% - 10px); /* Adjusted width for four cards in a row */
+    margin-bottom: 20px; 
+    /* Added margin bottom */
+    background-color: #fff;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    flex: 0 1 calc(20% - 10px); /* Adjusted width for four cards in a row */
+    margin-bottom: 20px; /* Added margin bottom */
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-image {
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-image img {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.outline {
+    border: 2px solid #87ceeb;
+    color: #87ceeb;
+}
+
+.outline:hover {
+    background-color: #87ceeb;
+    color: #fff;
+}
+
+.fill {
+    background-color: #87ceeb;
+    color: #fff;
+}
+
+.fill:hover {
+    background-color: #5b9ae7;
+}
+
+.no-meals-found {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    width: 100%;
+    font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.container .row{
+    width: 100%;
+}
+.four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    background-size: contain; /* Adjusted to contain */
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-position: center center; /* Centered horizontally and vertically */
+    height: 400px;
+}
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff!important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 .h2,p{
+    text-align: center;
+    font-size:x-large;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: auto; /* Adjust as needed */
+}
+
+.recipe-card {
+    border-radius: 20px;
+    background: #87ceeb;
+    width: 900px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image img {
+    border-radius:10px;
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    background-color: #ddd; /* Placeholder color */
+    /* Add background image */
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+.category{
+    font-size: 30px;
+}
+.area{
+    font-size: 30px;
+}
+
+
+.instructions {
+    margin-bottom: 20px;
+}
+
+.instructions h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #87ceeb;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: inline-block; /* Ensure the button occupies only necessary width */
+}
+.button:hover {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #87ceeb;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: inline-block; /* Ensure the button occupies only necessary width */
+}
+
+
+
+.container .some h1,p{
+    font-size: 30px;
+}
+
+
+
+.page h1 {
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    background: #fff;
+
+}
